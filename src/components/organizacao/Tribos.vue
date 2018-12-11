@@ -15,26 +15,26 @@
           </v-card>
         </v-flex>
         <v-flex xs10>
-          <v-card light class="espaco" elevation-20>
+      
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="brinks" alt=""></router-link>
+              <router-link to="/tribos/brinks"><img :src="brinks" alt=""></router-link>
             </div>
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="finamax" alt=""></router-link>
+              <router-link to="/tribos/finamax"><img :src="finamax" alt=""></router-link>
             </div>
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="unibanco" alt=""></router-link>
+              <router-link to="/tribos/unibanco"><img :src="unibanco" alt=""></router-link>
             </div>
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="mapfre" alt=""></router-link>
+              <router-link to="/tribos/mapfre"><img :src="mapfre" alt=""></router-link>
             </div>
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="passarela" alt=""></router-link>
+              <router-link to="/tribos/passarela"><img :src="passarela" alt=""></router-link>
             </div>
             <div class="flex">
-              <router-link to="/tribo:name"><img :src="produtos" alt=""></router-link>
+              <router-link to="/tribos/produtos"><img :src="produtos" alt=""></router-link>
             </div>
-            <div class="flex">
+            <!-- <div class="flex">
               <img :src="anderson" alt="Anderson - Gestor (Gerente)">
             </div>
             <div class="flex">
@@ -42,8 +42,8 @@
             </div>
             <div class="flex">
               <img :src="rafaela" alt="Rafaela - Gestora (Coordenadora)">
-            </div>
-          </v-card>
+            </div> -->
+         
         </v-flex>
       </v-layout>
     </v-container>
