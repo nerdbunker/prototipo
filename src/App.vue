@@ -62,7 +62,7 @@ export default {
         { icon: 'person_add', title: 'Cadastrar', to: '/cadastro' }
       ],
       miniVariant: false,
-      title: 'Grupo VICERI - Sistema Orgânico'
+      title: 'Vicélulas'
     }
   },
   name: 'App'

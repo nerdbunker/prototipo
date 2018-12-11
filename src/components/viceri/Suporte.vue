@@ -36,7 +36,7 @@ export default {
   name: 'Suporte',
   data () {
     return {
-      email: 'mailto://ipetinate@viceri.com.br',
+      email: 'mailto:ipetinate@viceri.com.br',
       msg: 'Caso tenha algum problema com a plataforma, entre em contato por email clicando no botão abaixo.',
       lema: 'Lambda, Lambda, Lambda',
       img: require('../../../static/imagens/equipe.jpeg')

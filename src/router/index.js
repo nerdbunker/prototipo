@@ -10,6 +10,7 @@ import Cadastro from '@/components/domain/Cadastro'
 import Squads from '@/components/organizacao/Squads'
 import Tribos from '@/components/organizacao/Tribos'
 import EasterEgg from '@/components/viceri/EasterEgg'
+import Gerenciar from '@/components/domain/Gerenciar'
 
 Vue.use(Router)
 
@@ -25,6 +26,7 @@ export default new Router({
     { path: '/suporte', name: 'Suporte', component: Suporte },
     { path: '/valores', name: 'Valores', component: Valores },
     { path: '/cadastro', name: 'Cadastro', component: Cadastro },
+    { path: '/gerenciar', name: 'Gerenciar', component: Gerenciar },
     { path: '/easteregg', name: 'Easter Egg', component: EasterEgg }
   ]
 })

@@ -1,6 +1,6 @@
 <template>
   <v-slide-y-transition mode="out-in">
-    <v-container fluid grid-list-md text-xs-center>
+    <v-container class="celulaSvg" fluid grid-list-md text-xs-center>
       <v-layout row wrap justify-center align-content-center>
         <v-flex xs4 mb-5 pa-1>
           <v-card class="search">
@@ -14,7 +14,7 @@
             ></v-text-field>
           </v-card>
         </v-flex>
-        <v-flex xs10>
+        <v-flex class="celulaSvg" xs10>
           <div class="flex">
             <router-link to="/tribos"><img :src="brinks" alt=""></router-link>
           </div>
@@ -83,6 +83,10 @@ export default {
 
 
 <style scoped>
+.celulaSvg {
+  background-image: url('../../static/imagens/bg.svg');
+}
+
 .flex {
   display: inline;
   flex-wrap: wrap;
