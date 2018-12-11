@@ -15,44 +15,42 @@
           </v-card>
         </v-flex>
         <v-flex xs10>
-          <v-card light class="espaco" elevation-20>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="brinks" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="consultoria" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="finamax" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="globaldev" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="unibanco" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="mapfre" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="passarela" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="produtos" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <router-link to="/tribos"><img :src="sequoia" alt=""></router-link>
-            </div>
-            <div class="flex">
-              <img :src="anderson" alt="Anderson - Gestor (Gerente)">
-            </div>
-            <div class="flex">
-              <img :src="fantatho" alt="Fantatho - Gestor (Coordenador)">
-            </div>
-            <div class="flex">
-              <img :src="rafaela" alt="Rafaela - Gestora (Coordenadora)">
-            </div>
-          </v-card>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="brinks" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="consultoria" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="finamax" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="globaldev" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="unibanco" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="mapfre" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="passarela" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="produtos" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <router-link to="/tribos"><img :src="sequoia" alt=""></router-link>
+          </div>
+          <div class="flex">
+            <img :src="anderson" alt="Anderson - Gestor (Gerente)">
+          </div>
+          <div class="flex">
+            <img :src="fantatho" alt="Fantatho - Gestor (Coordenador)">
+          </div>
+          <div class="flex">
+            <img :src="rafaela" alt="Rafaela - Gestora (Coordenadora)">
+          </div>
         </v-flex>
       </v-layout>
     </v-container>

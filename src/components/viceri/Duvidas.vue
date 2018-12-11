@@ -1,7 +1,7 @@
 <template>
   <v-container fluid fill-height grid-list-xs text-xs-center>
     <v-layout row wrap justify-center align-content-center>
-      <v-flex xs8>
+      <v-flex xs8 elevation-10>
         <v-expansion-panel light focusable>
           <v-expansion-panel-content
             v-for="(item,i) in items"

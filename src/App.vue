@@ -1,5 +1,5 @@
 <template>
-  <v-app id="app" dark>
+  <v-app id="app">
     <v-navigation-drawer
       persistent
       :mini-variant="miniVariant"
@@ -56,7 +56,6 @@ export default {
         { icon: 'scatter_plot', title: 'Squads', to: '/squads' },
         { icon: 'loyalty', title: 'Valores', to: '/valores' },
         { icon: 'photo', title: 'Viceri', to: '/viceri' },
-        { icon: 'bug_report', title: 'Easter Egg', to: '/easteregg' },
         { icon: 'info', title: 'Dúvidas', to: '/duvidas' },
         { icon: 'developer_mode', title: 'Suporte', to: '/suporte' },
         { icon: 'fingerprint', title: 'Entrar', to: '/login' },

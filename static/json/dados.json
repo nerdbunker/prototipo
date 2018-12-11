@@ -1,0 +1,59 @@
+[
+  {
+    "tribos":
+    [
+      {
+        "id": 1,
+        "nome": "Nome Da Tribo",
+        "squads": [
+          {
+            "id": 1,
+            "nome": "Nome Do Squad",
+            "pessoas":
+            [
+              { "nome": "Nome da Pessoa 0" },
+              { "nome": "Nome da Pessoa 1" },
+              { "nome": "Nome da Pessoa 3" }
+            ]
+          },
+          {
+            "id": 2,
+            "nome": "Nome Do Squad",
+            "pessoas":
+            [
+              { "nome": "Nome da Pessoa 0" },
+              { "nome": "Nome da Pessoa 1" },
+              { "nome": "Nome da Pessoa 3" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nome": "Nome Da Tribo",
+        "squads": [
+          {
+            "id": 1,
+            "nome": "Nome Do Squad",
+            "pessoas":
+            [
+              { "nome": "Nome da Pessoa 0" },
+              { "nome": "Nome da Pessoa 1" },
+              { "nome": "Nome da Pessoa 3" }
+            ]
+          },
+          {
+            "id": 2,
+            "nome": "Nome Do Squad",
+            "pessoas":
+            [
+              { "nome": "Nome da Pessoa 0" },
+              { "nome": "Nome da Pessoa 1" },
+              { "nome": "Nome da Pessoa 3" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
