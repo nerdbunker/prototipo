@@ -27,7 +27,7 @@
                   prepend-icon="work"
                   v-model="select"
                   :items="cargos"
-                  label="Cargo/Posição"
+                  label="Papel"
                   required
                 ></v-combobox>
 
@@ -64,7 +64,6 @@
   export default {
     data () {
       return {
-        limpar: '$vuetify.icons.clear',
         cargos: [
           'Gerente',
           'Coordenador',

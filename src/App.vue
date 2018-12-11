@@ -60,7 +60,7 @@ export default {
         { icon: 'info', title: 'Dúvidas', to: '/duvidas' },
         { icon: 'developer_mode', title: 'Suporte', to: '/suporte' },
         { icon: 'fingerprint', title: 'Entrar', to: '/login' },
-        { icon: 'person_add', title: 'Cadastrar', to: '/cadastro' }
+        { icon: 'person_add', title: 'Adicionar Membro', to: '/cadastro' }
       ]
     }
   },

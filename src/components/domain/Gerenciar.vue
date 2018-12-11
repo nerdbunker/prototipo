@@ -35,9 +35,8 @@
           </v-tabs>
         </v-card>
       </v-flex>
-      <v-divider></v-divider>
       <v-flex d-flex xs10>
-        <v-flex xs5>
+        <v-flex elevation-5 xs5>
           <v-text-field
             color="green"
             v-model="search"
@@ -46,9 +45,72 @@
             single-line
             hide-details
           ></v-text-field>
+          <v-list two-line>
+            <template v-for="(item, index) in items">
+              <v-subheader
+                v-if="item.header"
+                :key="item.header"
+              >
+                {{ item.header }}
+              </v-subheader>
+
+              <v-divider
+                v-else-if="item.divider"
+                :inset="item.inset"
+                :key="index"
+              ></v-divider>
+
+              <v-list-tile
+                v-else
+                :key="item.title"
+                avatar
+                @click="link"
+              >
+                <v-list-tile-avatar>
+                  <img :src="item.avatar">
+                </v-list-tile-avatar>
+
+                <v-list-tile-content>
+                  <v-list-tile-title v-html="item.title"></v-list-tile-title>
+                  <v-list-tile-sub-title v-html="item.subtitle"></v-list-tile-sub-title>
+                </v-list-tile-content>
+              </v-list-tile>
+            </template>
+          </v-list>
         </v-flex>
-        <v-flex xs7>
-          <p>asdasd</p>
+        <v-divider></v-divider>
+        <v-flex elevation-5 xs7>
+          <!-- Campos para edição -->
+          <v-text-field
+            class="search"
+            prepend-icon="person"
+            name="papel"
+            label="Nome"
+            id="id"
+          ></v-text-field>
+          <v-combobox
+            class="search"
+            prepend-icon="work"
+            v-model="select"
+            :items="cargos"
+            label="Papel"
+            required
+          ></v-combobox>
+          <v-combobox
+            class="search"
+            prepend-icon="home"
+            v-model="select"
+            :items="unidades"
+            label="Unidade"
+            required
+          ></v-combobox>
+          <v-text-field
+            label="Feedback e Avaliação"
+            v-model="value"
+          ></v-text-field>
+          <v-btn small color="teal">
+            Alterar
+          </v-btn>
         </v-flex>
       </v-flex>
     </v-layout>
@@ -59,7 +121,46 @@
   export default {
     data () {
       return {
-        text: 'Ola mundo'
+        items: [
+          { header: 'Pessoas' },
+          {
+            avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
+            title: 'Marcos Pontes',
+            subtitle: "Arquiteto Front-end"
+          },
+          { divider: true, inset: true },
+          {
+            avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg',
+            title: 'Fernando Machado',
+            subtitle: "Arquiteto de Testes"
+          },
+          { divider: true, inset: true },
+          {
+            avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg',
+            title: 'Juliana Gomes',
+            subtitle: "Analista de Negócios"
+          }
+        ],
+        cargos: [
+          'Gerente',
+          'Coordenador',
+          'Analista de Negócios',
+          'Analista de Sistemas',
+          'Arquiteto Back-end',
+          'Arquiteto Front-end',
+          'Cientista de Dados',
+          'Desenvolvedor Sênior',
+          'Desenvolvedor Pleno',
+          'Desenvolvedor Junior',
+          'Desenvolvedor Treinee',
+          'Desenvolvedor Estagiário'
+        ],
+        unidades: [
+          'Viceri Specialist - General Osório',
+          'Viceri Specialist - Edificio Vila Jobim',
+          'Viceri Ventures - Nove de Julho',
+          'Viceri Solutions - São Paulo'
+        ]
       }
     }
   }
