@@ -8,7 +8,9 @@ import Suporte from '@/components/viceri/Suporte'
 import Valores from '@/components/viceri/Valores'
 import Cadastro from '@/components/domain/Cadastro'
 import Squads from '@/components/organizacao/Squads'
+import Squad from '@/components/organizacao/Squad'
 import Tribos from '@/components/organizacao/Tribos'
+import Tribo from '@/components/organizacao/Tribo'
 import EasterEgg from '@/components/viceri/EasterEgg'
 import Gerenciar from '@/components/domain/Gerenciar'
 
@@ -21,7 +23,9 @@ export default new Router({
     { path: '/login', name: 'Login', component: Login },
     { path: '/viceri', name: 'Viceri', component: Viceri },
     { path: '/tribos', name: 'Tribos', component: Tribos },
-    { path: '/squads', name: 'Squads', component: Squads },
+    { path: '/tribos/:name', name:'Tribo', component: Tribo},
+    { path: '/tribos/squads/:id', name: 'Squad', component: Squad },
+    { path: '/squads', name: 'Squads', component: Squads }, 
     { path: '/duvidas', name: 'Dúvidas', component: Duvidas },
     { path: '/suporte', name: 'Suporte', component: Suporte },
     { path: '/valores', name: 'Valores', component: Valores },
