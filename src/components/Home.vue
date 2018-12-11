@@ -1,60 +1,58 @@
 <template>
-  <v-slide-y-transition mode="out-in">
-    <v-container class="celulaSvg" fluid grid-list-md text-xs-center>
-      <v-layout row wrap justify-center align-content-center>
-        <v-flex xs4 mb-5 pa-1>
-          <v-card class="search">
-            <v-text-field
-              color="green"
-              v-model="search"
-              append-icon="search"
-              label="Search"
-              single-line
-              hide-details
-            ></v-text-field>
-          </v-card>
-        </v-flex>
-        <v-flex class="celulaSvg" xs10>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="brinks" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="consultoria" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="finamax" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="globaldev" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="unibanco" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="mapfre" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="passarela" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="produtos" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <router-link to="/tribos"><img :src="sequoia" alt=""></router-link>
-          </div>
-          <div class="flex">
-            <img :src="anderson" alt="Anderson - Gestor (Gerente)">
-          </div>
-          <div class="flex">
-            <img :src="fantatho" alt="Fantatho - Gestor (Coordenador)">
-          </div>
-          <div class="flex">
-            <img :src="rafaela" alt="Rafaela - Gestora (Coordenadora)">
-          </div>
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </v-slide-y-transition>
+  <v-container fluid grid-list-md text-xs-center>
+    <v-layout row wrap justify-center align-content-center>
+      <v-flex xs4 mb-5 pa-1>
+        <v-card class="search">
+          <v-text-field
+            color="green"
+            v-model="search"
+            append-icon="search"
+            label="Search"
+            single-line
+            hide-details
+          ></v-text-field>
+        </v-card>
+      </v-flex>
+      <v-flex class="celulaSvg" xs10>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="brinks" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="consultoria" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="finamax" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="globaldev" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="unibanco" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="mapfre" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="passarela" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="produtos" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <router-link to="/tribos"><img :src="sequoia" alt=""></router-link>
+        </div>
+        <div class="flex">
+          <img :src="anderson" alt="Anderson - Gestor (Gerente)">
+        </div>
+        <div class="flex">
+          <img :src="fantatho" alt="Fantatho - Gestor (Coordenador)">
+        </div>
+        <div class="flex">
+          <img :src="rafaela" alt="Rafaela - Gestora (Coordenadora)">
+        </div>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

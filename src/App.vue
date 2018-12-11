@@ -34,7 +34,7 @@
         <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
       </v-btn>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title v-text="title"></v-toolbar-title>
+      <v-toolbar-title :v-text="items"></v-toolbar-title>
     </v-toolbar>
     <!-- Conteúdo -->
     <v-content>
@@ -50,6 +50,7 @@ export default {
       clipped: false,
       drawer: true,
       fixed: false,
+      miniVariant: false,
       items: [
         { icon: 'bubble_chart', title: 'Organismo', to: '/' },
         { icon: 'group_work', title: 'Tribos', to: '/tribos' },
@@ -60,9 +61,7 @@ export default {
         { icon: 'developer_mode', title: 'Suporte', to: '/suporte' },
         { icon: 'fingerprint', title: 'Entrar', to: '/login' },
         { icon: 'person_add', title: 'Cadastrar', to: '/cadastro' }
-      ],
-      miniVariant: false,
-      title: 'Vicélulas'
+      ]
     }
   },
   name: 'App'
