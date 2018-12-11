@@ -56,9 +56,11 @@ export default {
         { icon: 'scatter_plot', title: 'Squads', to: '/squads' },
         { icon: 'loyalty', title: 'Valores', to: '/valores' },
         { icon: 'photo', title: 'Viceri', to: '/viceri' },
-        { icon: 'info', title: 'F.A.Q.', to: '/faq' },
+        { icon: 'bug_report', title: 'Easter Egg', to: '/easteregg' },
+        { icon: 'info', title: 'Dúvidas', to: '/duvidas' },
         { icon: 'developer_mode', title: 'Suporte', to: '/suporte' },
-        { icon: 'fingerprint', title: 'Entrar', to: '/login' }
+        { icon: 'fingerprint', title: 'Entrar', to: '/login' },
+        { icon: 'person_add', title: 'Cadastrar', to: '/cadastro' }
       ],
       miniVariant: false,
       title: 'Grupo VICERI - Sistema Orgânico'
