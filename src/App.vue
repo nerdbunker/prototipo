@@ -59,8 +59,8 @@ export default {
         { icon: 'photo', title: 'Viceri', to: '/viceri' },
         { icon: 'info', title: 'Dúvidas', to: '/duvidas' },
         { icon: 'developer_mode', title: 'Suporte', to: '/suporte' },
-        { icon: 'fingerprint', title: 'Entrar', to: '/login' },
-        { icon: 'person_add', title: 'Adicionar Membro', to: '/cadastro' }
+        { icon: 'fingerprint', title: 'Entrar', to: '/login' }
+        // { icon: 'person_add', title: 'Adicionar Membro', to: '/cadastro' }
       ]
     }
   },

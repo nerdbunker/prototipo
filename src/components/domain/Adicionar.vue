@@ -51,7 +51,7 @@
             </v-card-text>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="teal">Cadastrar</v-btn>
+              <v-btn color="teal">Adicionar</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -62,6 +62,7 @@
 
 <script>
   export default {
+    name: 'Adicionar',
     data () {
       return {
         cargos: [

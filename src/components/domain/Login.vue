@@ -24,7 +24,7 @@
             </v-card-text>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="teal">Login</v-btn>
+              <v-btn to="/gerenciar" color="teal">Login</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>

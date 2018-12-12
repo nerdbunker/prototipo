@@ -8,7 +8,7 @@
               color="green"
               v-model="search"
               append-icon="search"
-              label="Search"
+              label="Pesquisar"
               single-line
               hide-details
             ></v-text-field>
