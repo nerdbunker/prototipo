@@ -35,7 +35,7 @@
       return {
         items: [
           { icon: true },
-          { title: 'Mateus', cargo: 'P.O', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
+          { title: 'Mateus', cargo: 'Analista - P.O', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
           { title: 'Lucas', cargo: 'Q.A', avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg' },
           { title: 'Isac', cargo: 'Dev', avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg' },
           { title: 'Fernando', cargo: 'Dev', avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg' },
