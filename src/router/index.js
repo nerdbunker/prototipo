@@ -13,6 +13,7 @@ import Tribos from '@/components/organismo/Tribos'
 import Tribo from '@/components/organismo/Tribo'
 import Gerenciar from '@/components/domain/Gerenciar'
 // import EasterEgg from '@/components/viceri/EasterEgg'
+import Teste from '@/components/viceri/Teste'
 
 Vue.use(Router)
 
@@ -30,7 +31,8 @@ export default new Router({
     { path: '/suporte', name: 'Suporte', component: Suporte },
     { path: '/valores', name: 'Valores', component: Valores },
     { path: '/adicionar', name: 'Adicionar', component: Adicionar },
-    { path: '/gerenciar', name: 'Gerenciar', component: Gerenciar }
+    { path: '/gerenciar', name: 'Gerenciar', component: Gerenciar },
     // { path: '/easteregg', name: 'Easter Egg', component: EasterEgg }
+    { path: '/teste', name: 'Teste SVG', component: Teste }
   ]
 })
